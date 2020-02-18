@@ -4,8 +4,11 @@ Resolve `.eth` names using the `hsd` DNS resolver.
 
 ### Usage
 
+Clone the repository, run `$ npm install` and then start
+the Handshake node.
+
 ```bash
-./hsd --plugins <path/to/hsd-ens-resolution/lib/plugin.js> \
+$ ./hsd --plugins <path/to/hsd-ens-resolution/lib/plugin.js> \
     --ethurl <uri of ethereum node>
 ```
 
