@@ -1,0 +1,21 @@
+{
+  "name": "hsd-ens-resolution",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint $(cat .eslintfiles) || exit 0"
+  },
+  "dependencies": {
+    "blgr": "^0.1.7",
+    "bns": "^0.10.2",
+    "bsert": "0.0.10",
+    "ens-ethclient": "https://github.com/tynes/ens-ethclient.git",
+    "hsd": "^2.0.2"
+  },
+  "author": "Mark Tyneway",
+  "license": "MIT"
+}
